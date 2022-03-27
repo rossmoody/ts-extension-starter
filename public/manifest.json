@@ -1,0 +1,16 @@
+{
+  "name": "Title",
+  "description": "Description",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {},
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "icons": {
+    "64": "assets/icon/64.png",
+    "128": "assets/icon/128.png",
+    "256": "assets/icon/256.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ts-extension-starter",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "0.0.177",
+    "prettier": "^2.6.1",
+    "typescript": "^4.5.4"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  }
+}
