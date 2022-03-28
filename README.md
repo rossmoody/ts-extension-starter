@@ -1,7 +1,8 @@
-# TypeScript React Chrome v3 Manifest Extension Boilerplate
+# TypeScript, React, Rollup, and Chrome v3 Manifest Starter
 
-A basic TypeScript, Rollup, React boilerplate setup for making a browser
-extension with Manifest v3.
+This is a bare bones starter for building React/Typescript extensions for Chrome using `manifest_version: 3`.
+
+Under the hood, this repo is built leaning pretty heavily on the infrastructure from [Extend Chrome](https://www.extend-chrome.dev/rollup-plugin). I would say the primary difference here is the starter integrates some foundational code and manifest configuration for v3 which I couldn't find in the boilerplate examples they offer.
 
 ## Development
 
