@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@rollup/plugin-replace": "^3.0.0",
-    "@types/chrome": "^0.0.127",
+    "@types/chrome": "^0.0.180",
     "@types/firefox-webext-browser": "^82.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",

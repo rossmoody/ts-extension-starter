@@ -1,7 +1,7 @@
-# TypeScript React Browser Extension Boilerplate
+# TypeScript React Chrome v3 Manifest Extension Boilerplate
 
-A basic TypeScript, Rollup, React boilerplate setup for making browser
-extensions.
+A basic TypeScript, Rollup, React boilerplate setup for making a browser
+extension with Manifest v3.
 
 ## Development
 
