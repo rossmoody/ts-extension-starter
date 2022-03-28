@@ -1,14 +1,14 @@
-// This file must be in root of directory
+// This file must be in the root of the src directory
+// Popup action takes precedence over this listener.
+// To make this function work, set "action" property to {} in manifest
 
-function logBackgroundScriptToConsole() {
-  console.log('background script')
-}
+import { init } from './scripts/content-script'
 
 chrome.action.onClicked.addListener((tab) => {
   if (tab && tab.id) {
     chrome.scripting.executeScript({
       target: { tabId: tab.id },
-      func: logBackgroundScriptToConsole,
+      func: init,
     })
   }
 })
