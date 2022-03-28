@@ -1,6 +1,6 @@
 {
-  "name": "Title",
-  "description": "Description",
+  "name": "Starter Extension",
+  "description": "A starter setup for browser extensions using Typescript and Rollup.",
   "version": "1.0",
   "manifest_version": 3,
   "action": {},

@@ -1,14 +1,14 @@
-function reddenPage() {
-  document.body.style.backgroundColor = 'red'
+function bluePage() {
+  document.body.style.backgroundColor = 'blue'
 }
 
 chrome.action.onClicked.addListener((tab) => {
-  const isValidTab = tab && tab.url && tab.url.includes('chrome://')
+  const isValidTab = tab && tab.url && tab.id
 
   if (isValidTab) {
     chrome.scripting.executeScript({
       target: { tabId: tab.id! },
-      func: reddenPage,
+      func: bluePage,
     })
   }
 })

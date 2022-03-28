@@ -1,14 +1,19 @@
 {
   "name": "ts-extension-starter",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {},
+  "description": "A starter repo for building Chrome browser extensions in v3 manifest using Typescript and Rollup.",
+  "scripts": {
+    "build": "rollup -c -w"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.1",
     "@types/chrome": "0.0.177",
     "prettier": "^2.6.1",
+    "rollup": "^2.70.1",
+    "tslib": "^2.3.1",
     "typescript": "^4.5.4"
   },
   "prettier": {
