@@ -10,13 +10,13 @@
     "rollup",
     "boilerplate"
   ],
-  "homepage": "https://github.com/extend-chrome/ts-react-boilerplate#readme",
+  "homepage": "https://github.com/rossmoody/ts-extension-starter#readme",
   "bugs": {
-    "url": "https://github.com/extend-chrome/ts-react-boilerplate/issues"
+    "url": "https://github.com/rossmoody/ts-extension-starter/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/extend-chrome/ts-react-boilerplate.git"
+    "url": "git+https://github.com/rossmoody/ts-extension-starter.git"
   },
   "license": "MIT",
   "author": "Ross Moody<@_rossmoody>",
@@ -51,7 +51,7 @@
     "rollup-plugin-empty-dir": "^1.0.5",
     "rollup-plugin-zip": "^1.0.3",
     "tslib": "^2.0.3",
-    "typescript": "^4.1.3"
+    "typescript": "^4.6.0"
   },
   "prettier": {
     "semi": false,

@@ -1,10 +1,19 @@
 {
-  "background": { "scripts": ["background/index.ts"] },
+  "background": {
+    "scripts": ["background/index.ts"]
+  },
   "content_scripts": [
     {
       "js": ["content/index.ts"],
       "matches": ["https://*/*", "http://*/*"]
     }
   ],
-  "browser_action": { "default_popup": "pages/popup/index.html" }
+  "browser_action": {
+    "default_popup": "pages/popup/index.html"
+  },
+  "icons": {
+    "64": "assets/icons/64.png",
+    "128": "assets/icons/128.png",
+    "256": "assets/icons/256.png"
+  }
 }
