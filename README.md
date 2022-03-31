@@ -2,7 +2,31 @@
 
 This is a bare bones starter for building React/Typescript extensions for Chrome using `manifest_version: 3`.
 
-Under the hood, this repo is built leaning pretty heavily on the infrastructure from [Extend Chrome](https://www.extend-chrome.dev/rollup-plugin). The primary difference is this starter integrates some foundational code and manifest configuration for v3 which I couldn't find in the boilerplate examples they offer.
+Under the hood, this starter leans pretty heavily on the infrastructure from [Extend Chrome](https://www.extend-chrome.dev/rollup-plugin). The primary difference is this starter integrates some foundational code and manifest configuration for v3 which I couldn't find in the boilerplate examples they offer.
+
+## Notes
+
+In my tinkering with this starter there are a few notes that I find helpful.
+
+### 1. Manually bundle files
+
+If you reference files that can't be automatically recognized, use the `web_accessible_resources` property in manifest to explicitly bundle them.
+
+```json
+"web_accessible_resources": [
+    {
+      "resources": [
+        "pages/popup/index.html",
+        "pages/popup/App.tsx",
+        "pages/popup/index.tsx"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+```
+
 
 ## Development
 
