@@ -107,4 +107,4 @@ dist
 .tern-port
 
 # Apple Filesystem
-.DS_Store
+**/.DS_Store
