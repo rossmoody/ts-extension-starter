@@ -27,7 +27,7 @@ If you reference files that can't be automatically recognized, use the `web_acce
   ]
 ```
 
-2. Split v2 and v3 manifests
+### 2. Split v2 and v3 manifests
 
 Though a little hacky, I have had some success generating v2 and v3 manifests with a little customization to this starter. The approach can be [seen on my extension Link Roamer](https://github.com/rossmoody/link-roamer/blob/main/rollup.config.js). The premise is pretty simple: hook into a specific string value throughout your app and programmatically fire v2 or v3 API methods depending on the build environment.
 
