@@ -10,6 +10,10 @@
     "rollup",
     "boilerplate"
   ],
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
   "homepage": "https://github.com/rossmoody/ts-extension-starter#readme",
   "bugs": {
     "url": "https://github.com/rossmoody/ts-extension-starter/issues"
