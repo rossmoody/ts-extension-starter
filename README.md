@@ -95,3 +95,9 @@ yarn build
 
 This will create a ZIP file with your package name and version in the `releases`
 folder.
+
+---
+
+## More apps by me
+
+I like making things. [Check out what I'm up to lately](https://rossmoody.com).
